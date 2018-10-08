@@ -27,7 +27,7 @@ client.on("ready", function() {
 	console.log("ready");
 	
 	client.user.setStatus("Online");
-	client.user.setGame("Mplay | Misk...");
+	client.user.setGame("2play | Reve");
 });
 const prefix = "M"
 client.on('message', async msg => {
@@ -320,8 +320,8 @@ function play(guild, song) {
 })
 }
 });
-const developers = ["331975722283302912","399164491201249282","346810648161943552"]
-const adminprefix = "M";
+const developers = ["331975722283302912","399164491201249282","331975722283302912"]
+const adminprefix = "2";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
